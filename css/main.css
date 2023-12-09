@@ -1,0 +1,84 @@
+html{
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+  background-color: #1F1F26;
+}
+
+/* Navbar */
+.Navbar{
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: #2C2E3A;
+  height: 100%
+}
+
+.Navbar__list{
+  display: grid;
+  grid-template-rows: repeat(auto);
+  gap: 20px;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  padding: 40px;
+  height: 100%
+}
+
+.Navbar__img{
+  width: 160px;
+  height: 160px;
+  justify-self: center;
+  align-self: start;
+  border-radius: 100px;
+}
+
+.Navbar__itemlist{
+  list-style: none;
+}
+
+.Navbar__item{
+  margin: 0;
+  text-decoration: none;
+  color: #00062E;
+  font-weight: bold;
+}
+
+.Navbar__item:hover{
+  color: #5E6CCD;
+}
+
+/* Informacion */
+
+.Info-container{
+  margin-top: 150px;
+  margin-left: 250px;
+  max-width: 800px;
+  padding: 50px;
+  display: grid;
+  grid-template-rows: repeat(auto);
+  gap: 100px;
+}
+
+.Info-section{
+  padding: 30px;
+  color: #DFDFDF;
+}
+
+    /* Presentacion */
+
+.Presentacion-title{
+  font-size: 70px;
+  color: #023E73;
+  margin-bottom: 20px;
+}
+.Presentacion-subtitle{
+  color: #DFDFDF;
+}
+
+.Presentacion-mail{
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+
+}
