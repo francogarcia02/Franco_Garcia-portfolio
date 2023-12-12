@@ -3,7 +3,11 @@ html{
 }
 
 body{
-  background-color: #1F1F26;
+  background-color: #22222E;
+}
+
+hr{
+  color: #DFDFDF;
 }
 
 /* Navbar */
@@ -41,12 +45,12 @@ body{
 .Navbar__item{
   margin: 0;
   text-decoration: none;
-  color: #00062E;
+  color: #3A53FE;
   font-weight: bold;
 }
 
 .Navbar__item:hover{
-  color: #5E6CCD;
+  color: #00062E;
 }
 
 /* Informacion */
@@ -54,31 +58,115 @@ body{
 .Info-container{
   margin-top: 150px;
   margin-left: 250px;
-  max-width: 800px;
+  max-width: 1000px;
   padding: 50px;
   display: grid;
   grid-template-rows: repeat(auto);
-  gap: 100px;
+  gap: 200px;
 }
 
 .Info-section{
   padding: 30px;
   color: #DFDFDF;
+  display: grid;
+  grid-template-rows: repeat(auto);
+  gap: 20px;
+}
+
+.Info-section-title{
+  color: #0068C4;
+  font-weight: 400;
 }
 
     /* Presentacion */
 
 .Presentacion-title{
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  justify-content: start;
+  gap: 5px;
+}
+
+.Presentacion-p1{
   font-size: 70px;
   color: #023E73;
-  margin-bottom: 20px;
 }
-.Presentacion-subtitle{
+
+.Presentacion-p2{
+  font-size: 70px;
   color: #DFDFDF;
 }
 
-.Presentacion-mail{
+.Skill__list{
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  justify-content: start;
+  gap: 5px;
+  margin-bottom: 20px;
+}
+
+.Skill{
   display: grid;
   grid-template-columns: repeat(2, auto);
+  gap: 5px;
+  justify-content: start;
+  align-items: center;
+  padding: 5px;
+}
 
+.Skill__img{
+  width: 20px;
+}
+
+.Skill__name{
+  font-weight: bold;
+  align-self: center;
+  margin: 0;
+  font-size: 13px;
+}
+
+.HTML-bg{
+  background-color: #E55638;
+}
+
+.Portfolio{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.Trabajo{
+  width: 300px;
+  background-color: #31314B;
+}
+
+.Trabajo__img{
+  width: 100%;
+}
+
+.Trabajo__text{
+  margin: 0;
+  padding: 10px;
+}
+
+.Trabajo-Skill__list{
+  display: grid;
+  grid-template-columns: repeat(3,auto);
+  justify-content: center;
+  gap: 5px;
+  margin-bottom: 20px;
+}
+
+.Trabajo__link{
+  color: #DFDFDF;
+  width: 20px;
+  padding: 5px;
+}
+
+.Trabajo__link:hover{
+  color: #C0C0C0;
+}
+
+.Link-tamaño{
+  font-size: 40px;
 }

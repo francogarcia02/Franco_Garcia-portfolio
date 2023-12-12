@@ -16,42 +16,131 @@
             <li class="Navbar__item Navbar__itemlist"><a href="#Presentacion"><img class="Navbar__img" src="img/perfil/FotoPersonal.jpeg" alt="Imagen de presentacion"/></a></li>
             <li class="Navbar__itemlist"><a href="#Sobre-mi" class="Navbar__item">SOBRE MI</a></li>
             <li class="Navbar__itemlist"><a href="#Habilidades" class="Navbar__item">SKILLS</a></li>
-            <li class="Navbar__itemlist"><a href="#Estudios" class="Navbar__item">ESTUDIOS</a></li>
             <li class="Navbar__itemlist"><a href="#Portfolio" class="Navbar__item">PORTFOLIO</a></li>
+            <li class="Navbar__itemlist"><a href="#Estudios" class="Navbar__item">ESTUDIOS</a></li>
             <li class="Navbar__itemlist"><a href="#Contacto" class="Navbar__item">CONTACTO</a></li>
         </nav>
     </header>
     <main>
         <div class="Info-container">
             <section class="Info-section" id="Presentacion">
-                <h1 class="Presentacion-title">FRANCO GARCIA</h1>
-                <h5 class="Presentacion-subtitle">BIENVENIDO A MI PORTFOLIO COMO DESARROLLADOR WEB</h5>
-                <div class="Presentacion-mail">
-                    <p>Si quieres ponerte en contacto conmigo escribeme a</p>
-                    <a href="mailto:francoalbertogarcia2017@gmail.com">francoalbertogarcia2017@gmail.com</a>
+                <div>
+                    <div class="Presentacion-title">
+                        <h1 class="Presentacion-p1">FRANCO</h1>
+                        <h1 class="Presentacion-p2">GARCIA</h1>
+                    </div>
+
+                    <h5 class="text-uppercase">bienvenido a mi portafolio como desarrollador web</h5>
                 </div>
+                <p>Si quieres ponerte en contacto conmigo escribeme a <a href="mailto:francoalbertogarcia2017@gmail.com">francoalbertogarcia2017@gmail.com</a></p>
 
             </section>
             <hr>
             <section id="Sobre-mi" class="Info-section">
-                <h1>SOBRE MI</h1>
-
+                <h1 class="display-5 Info-section-title">SOBRE MI</h1>
+                <p>Soy un desarrollador web dedicado al Front-End, especializado en React.js. Vivo en Cordoba Capital(Zona norte), Cordoba, Argentina</p>
+                <p class="lead text-primary">Actualmente estudio Ingenieria en sistema en la Universidad Tecnica Nacional</p>
+                <p>Estoy estudiando PHP para entrar en el mundo del Back-End y trabajar como desarrollador Full-Stack</p>
             </section>
             <hr>
             <section id="Habilidades" class="Info-section">
-                <h1>SKILLS</h1>
-            </section>
-            <hr>
-            <section id="Estudios" class="Info-section">
-                <h1>ESTUDIOS</h1>
+                <h1 class="display-5 Info-section-title">SKILLS</h1>
+                <div>
+                    <h1 class="h4 text-uppercase">lenguajes de programacion</h1>
+                    <div class="Skill__list">
+                        <div class="Skill HTML-bg">
+                            <img class="Skill__img" src="img/logos/HTML5.png" alt="html">
+                            <p class="Skill__name text-uppercase">html5</p>
+                        </div>
+                        <div class="Skill bg-primary">
+                            <img class="Skill__img" src="img/logos/CSS3.png" alt="html">
+                            <p class="Skill__name text-uppercase">css3</p>
+                        </div>
+                        <div class="Skill bg-dark">
+                            <img class="Skill__img" src="img/logos/JAVASCRIPT.png" alt="html">
+                            <p class="Skill__name text-uppercase">javascript</p>
+                        </div>
+                        <div class="Skill bg-light">
+                            <img class="Skill__img" src="img/logos/PYTHON.png" alt="html">
+                            <p class="Skill__name text-uppercase text-dark">python</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h1 class="h4 text-uppercase">frameworks y librerias</h1>
+                    <div class="Skill__list">
+                        <div class="Skill bg-light">
+                            <img class="Skill__img" src="img/logos/BOOTSTRAP.png" alt="html">
+                            <p class="Skill__name text-uppercase text-dark">bootstrap</p>
+                        </div>
+                        <div class="Skill bg-black">
+                            <img class="Skill__img" src="img/logos/REACT.png" alt="html">
+                            <p class="Skill__name text-uppercase text-white">react</p>
+                        </div>
+                    </div>
+                </div>
             </section>
             <hr>
             <section id="Portfolio" class="Info-section">
-                <h1>PORTFOLIO</h1>
+                <h1 class="display-5 Info-section-title">PORTFOLIO</h1>
+                <div class="Portfolio">
+                    <div class="shadow rounded Trabajo">
+                        <img class="Trabajo__img" src="img/portfolio/E-ECOMMERCE.png" alt="">
+                        <h3 class="h5 text-primary text-uppercase Trabajo__text">electronicos ecommerce</h3>
+                        <p class="Trabajo__text">aplicacion web desarrollada como freelancer para un cliente particular</p>
+                        <div class="Trabajo-Skill__list">
+                            <div class="Skill HTML-bg">
+                                <img class="Skill__img" src="img/logos/HTML5.png" alt="html">
+                                <p class="Skill__name text-uppercase">html5</p>
+                             </div>
+                            <div class="Skill bg-primary">
+                                <img class="Skill__img" src="img/logos/CSS3.png" alt="html">
+                                <p class="Skill__name text-uppercase">css3</p>
+                            </div>
+                            <div class="Skill bg-black">
+                                <img class="Skill__img" src="img/logos/REACT.png" alt="html">
+                                <p class="Skill__name text-uppercase text-white">react</p>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <a class="Trabajo__link d-flex justify-content-center" href="https://github.com/francogarcia02/React-Ecommerce">
+                                <i class="bi bi-github Link-tamaño"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="shadow rounded Trabajo">
+                        <img class="Trabajo__img" src="img/portfolio/F-ECOMMERCE.png" alt="">
+                        <h3 class="h5 text-primary text-uppercase Trabajo__text">restaurant en linea</h3>
+                        <p class="Trabajo__text">aplicacion web desarrollada como freelancer para un restaurante con una modalidad de compra en linea</p>
+                        <div class="Trabajo-Skill__list">
+                            <div class="Skill HTML-bg">
+                                <img class="Skill__img" src="img/logos/HTML5.png" alt="html">
+                                <p class="Skill__name text-uppercase">html5</p>
+                             </div>
+                            <div class="Skill bg-primary">
+                                <img class="Skill__img" src="img/logos/CSS3.png" alt="html">
+                                <p class="Skill__name text-uppercase">css3</p>
+                            </div>
+                            <div class="Skill bg-dark">
+                                <img class="Skill__img" src="img/logos/JAVASCRIPT.png" alt="html">
+                                <p class="Skill__name text-uppercase">javascript</p>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <a class="Trabajo__link d-flex justify-content-center" href="https://github.com/francogarcia02/Food-Ecommerce">
+                                <i class="bi bi-github Link-tamaño"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <section id="Estudios" class="Info-section">
+                <h1 class="display-5 Info-section-title">ESTUDIOS</h1>
             </section>
             <hr>
             <section id="Contacto" class="Info-section">
-                <h1>CONTACTO</h1>
+                <h1 class="display-5 Info-section-title">CONTACTO</h1>
             </section>
         </div>
     </main>
