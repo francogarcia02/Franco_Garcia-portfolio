@@ -101,7 +101,7 @@ hr{
   display: grid;
   grid-template-columns: repeat(4, auto);
   justify-content: start;
-  gap: 5px;
+  gap: 10px;
   margin-bottom: 20px;
 }
 
@@ -131,13 +131,14 @@ hr{
 
 .Portfolio{
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 30px;
+  grid-template-columns: repeat(3, auto);
+
 }
 
 .Trabajo{
   width: 300px;
   background-color: #31314B;
+  border: solid 1px #31314B;
 }
 
 .Trabajo__img{
@@ -169,4 +170,15 @@ hr{
 
 .Link-tamaño{
   font-size: 40px;
+}
+
+.Contacto{
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: start;
+  gap: 5px;
+}
+
+.Link{
+  color: #7CFF21;
 }
