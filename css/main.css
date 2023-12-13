@@ -151,7 +151,7 @@ hr{
 .Portfolio{
   display: grid;
   grid-template-columns: repeat(3, auto);
-
+  gap: 15px;
 }
 
 .Trabajo{
