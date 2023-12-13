@@ -97,6 +97,10 @@ hr{
   color: #DFDFDF;
 }
 
+.Boton-cv{
+  font-size: 14px;
+}
+
 .Skill__list{
   display: grid;
   grid-template-columns: repeat(4, auto);
