@@ -97,8 +97,23 @@ hr{
   color: #DFDFDF;
 }
 
+.Botones__contenedor{
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+  justify-content: start;
+  gap: 5px;
+}
+
 .Boton-cv{
   font-size: 14px;
+  background-color: #7CFF21;
+  color: black;
+  transition-all: 1s;
+}
+
+.Boton-cv:hover{
+  background-color: #65CD1C;
+  color: black;
 }
 
 .Skill__list{

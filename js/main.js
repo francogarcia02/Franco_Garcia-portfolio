@@ -1,15 +1,11 @@
-function curriculum() {
-  var link = document.createElement('a');
-  link.href = 'pdfs/FrancoGarcia-Curriculum.pdf';
-  link.download = 'FrancoGarcia-Curriculum.pdf';
-  link.target = '_blank';
-  link.click();
+function downloadPDF() {
+  var file = new Blob([document.getElementById('pdf').innerHTML], {type: 'application/pdf'});
+  var url = window.URL.createObjectURL(file);
+  var a = document.createElement('a');
+  a.href = url;
+  a.download = 'pdfs/FrancoGarcia-Curriculum.pdf';
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
 }
 
-function curriculum-ingles() {
-  var link = document.createElement('a');
-  link.href = 'pdfs/FrancoGarcia-Curriculum(Ingles).pdf';
-  link.download = 'FrancoGarcia-Curriculum(Ingles).pdf';
-  link.target = '_blank';
-  link.click();
-}
