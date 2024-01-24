@@ -6,7 +6,7 @@ const NavBar = () => {
     const photoWidth = '140rem';
 
     return(
-        <nav className="p-3 navbar navbar-expand-md navbar-light d-flex flex-md-column">
+        <nav className="p-3 pt-5 navbar navbar-expand-md navbar-light d-flex flex-md-column">
             <a href="#Presentacion"><img src="assets/img/perfil/FotoPersonal.jpeg" width={photoWidth} className="rounded-circle text-center" alt="Foto personal"/></a>
             <button
             className="navbar-toggler"
