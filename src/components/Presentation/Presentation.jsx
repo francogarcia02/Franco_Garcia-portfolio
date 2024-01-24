@@ -9,13 +9,9 @@ const Presentation = () =>{
                 <h5 className="text-secondary">bienvenido a mi portafolio como desarrollador web</h5>
             </div>
             <p className="text-secondary">Si quieres ponerte en contacto conmigo escribeme a <a className="text-green text-decoration-none" href="mailto:francoalbertogarcia2017@gmail.com">francoalbertogarcia2017@gmail.com</a></p>
-            <div className="d-flex flex-row">
-                <div className="me-2">
-                    <a className="text-decoration-none bg-green text-dark p-1 text-center  rounded" href="assets/pdfs/FrancoGarcia-Curriculum.pdf">Descarga mi cv</a>
-                </div>
-                <div>
-                    <a className="text-decoration-none bg-green text-dark p-1 text-center  rounded" href="assets/pdfs/FrancoGarcia-Curriculum(Ingles).pdf">Descarga mi cv (ingles)</a>
-                </div>
+            <div className="grid">
+                <a className="text-decoration-none bg-green text-dark p-2 text-center rounded" href="assets/pdfs/FrancoGarcia-Curriculum.pdf">Descarga mi cv</a>
+                <a className="text-decoration-none bg-green text-dark p-2 text-center rounded" href="assets/pdfs/FrancoGarcia-Curriculum(Ingles).pdf">Descarga mi cv (ingles)</a>
             </div>
         </div>
     )
