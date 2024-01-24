@@ -10,33 +10,51 @@ hr{
   color: #DFDFDF;
 }
 
-.Nav{
-  height: 100vh;
-  width: 5rem;
-  position: fixed;
+@media (min-width: 768px) {
+  .navbar{
+    position: fixed;
+    background: #2C2E3A;
+    height: 100vh;
+  }
+  .space{
+    margin-top: 15rem;
+    margin-bottom: 25rem;
+  }
+  .justifier{
+    margin-left: 16rem;
+  }
 }
 
-.Nav-bar{
-  display: flex;
-  flex-direction: column;
-}
-
-.Navbar__img{
-  width: 160px;
-  height: 160px;
-  justify-self: center;
-  align-self: start;
-  border-radius: 100px;
+@media (max-width: 767px) {
+  .justifier{
+    margin-left: 0rem;
+  }
+  .space{
+    margin-top: 5rem;
+    margin-bottom: 17rem;
+  }
 }
 
 .text-bold{
   font-weight: bold;
 }
 
-.justifier{
-  margin-left: 2rem;
+.text-green{
+  color: #7CFF21;
+}
+
+.text-blue{
+  color: #023E73;
+}
+
+.bg-green{
+  background-color: #7CFF21;
 }
 
 .index{
   z-index: 3;
+}
+
+.icon-width{
+  width: 2rem;
 }

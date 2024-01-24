@@ -2,26 +2,20 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 import './App.css';
 import NavBar from './components/NavBar/NavBar';
-import AboutMe from './components/AboutMe/AboutMe'
+import AboutMe from './components/AboutMe/AboutMe';
+import Presentation from './components/Presentation/Presentation';
+import Skills from './components/Skills/Skills';
 
 function App(){
     return (
         <div className="background">
             <div className="container d-flex flex-column flex-md-row p-0 m-0">
                 <NavBar/>
-                <main className="justifier mt-5 ps-md-5 flex-grow-1">
+                <main className="justifier p-4 flex-grow-1">
+                    <Presentation/>
                     <AboutMe/>
-                    <AboutMe/>
-                    <AboutMe/>
-                    <AboutMe/>
-                    <AboutMe/>
-                    <AboutMe/>
-                    <AboutMe/>
-                    <AboutMe/>
-                    <AboutMe/>
-                    <AboutMe/>
+                    <Skills/>
                 </main>
-
             </div>
         </div>
   );
