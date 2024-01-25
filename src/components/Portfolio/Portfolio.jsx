@@ -6,6 +6,34 @@ const Portfolio = () =>{
             <h1 className="display-3 text-primary mb-5">PORTFOLIO</h1>
             <div className=" d-flex flex-wrap justify-content-start align-items-start">
                 <div className="d-grid me-5 mb-5 max-width shadow rounded">
+                    <img className="img-width rounded" src="assets/img/portfolio/WEATHER-PAGE.jpg" alt=""/>
+                    <h3 className="h5 text-primary text-uppercase">weather page</h3>
+                    <p className="text-light">Pagina del clima integrada con API</p>
+                    <div className="d-flex flex-wrap mb-2">
+                        <div className="me-2 p-1 d-flex align-items-center">
+                            <img className="icon-width me-1" src="assets/img/logos/JAVASCRIPT.png" alt="html"/>
+                            <p className="text-light m-0 me-1 text-bold">jsx</p>
+                        </div>
+                        <div className="bg-primary m-2 p-1 d-flex align-items-center justify-content-center">
+                            <img className="icon-width me-1" src="assets/img/logos/CSS3.png" alt="html"/>
+                            <p className="text-light m-0 me-1 text-bold text-uppercase">css3</p>
+                        </div>
+                        <div className="bg-dark m-2 p-1 d-flex align-items-center justify-content-center">
+                            <img className="icon-width me-1" src="assets/img/logos/REACT.png" alt="html"/>
+                            <p className="text-light m-0 me-1 text-bold text-uppercase">react</p>
+                        </div>
+                        <div className="bg-light m-2 p-1 d-flex align-items-center justify-content-center">
+                            <img className="icon-width me-1" src="assets/img/logos/BOOTSTRAP.png" alt="html"/>
+                            <p className="text-dark m-0 me-1 text-bold text-uppercase">bootstrap</p>
+                        </div>
+                    </div>
+                    <div className="d-flex justify-content-center">
+                        <a className="d-flex justify-content-center" href="https://github.com/francogarcia02/React-OpenWeatherMap">
+                            <Github className="git-icon m-2"/>
+                        </a>
+                    </div>
+                </div>
+                <div className="d-grid me-5 mb-5 max-width shadow rounded">
                     <img className="img-width rounded" src="assets/img/portfolio/MP-ECOMMERCE.png" alt=""/>
                     <h3 className="h5 text-primary text-uppercase">ecommerce con mercado pago</h3>
                     <p className="text-light">aplicacion web desarrollada para una empresa de venta de electronicos con pasarela de pago</p>
@@ -49,6 +77,10 @@ const Portfolio = () =>{
                         <div className="bg-dark m-2 p-1 d-flex align-items-center justify-content-center">
                             <img className="icon-width me-1" src="assets/img/logos/REACT.png" alt="html"/>
                             <p className="text-light m-0 me-1 text-bold text-uppercase">react</p>
+                        </div>
+                        <div className="bg-light m-2 p-1 d-flex align-items-center justify-content-center">
+                            <img className="icon-width me-1" src="assets/img/logos/BOOTSTRAP.png" alt="html"/>
+                            <p className="text-dark m-0 me-1 text-bold text-uppercase">bootstrap</p>
                         </div>
                     </div>
                     <div className="d-flex justify-content-center">

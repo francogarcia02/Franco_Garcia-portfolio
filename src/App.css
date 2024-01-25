@@ -15,13 +15,15 @@ hr{
     position: fixed;
     background: #2C2E3A;
     height: 100vh;
+    padding: 3rem;
+    padding-top: 8rem;
   }
   .space{
     margin-top: 15rem;
     margin-bottom: 25rem;
   }
   .justifier{
-    margin-left: 16rem;
+    margin-left: 20rem;
   }
 }
 
@@ -32,6 +34,9 @@ hr{
   .space{
     margin-top: 5rem;
     margin-bottom: 17rem;
+  }
+  .navbar{
+    background: #2C2E3A;
   }
 }
 
@@ -61,6 +66,7 @@ hr{
 
 .img-width{
   width: 18rem;
+  height: 10rem;
 }
 
 .max-width{

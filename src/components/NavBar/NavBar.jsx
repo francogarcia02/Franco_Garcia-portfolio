@@ -6,7 +6,7 @@ const NavBar = () => {
     const photoWidth = '140rem';
 
     return(
-        <nav className="p-3 pt-5 navbar navbar-expand-md navbar-light d-flex flex-md-column">
+        <nav className="navbar navbar-expand-md navbar-light d-flex flex-md-column">
             <a href="#Presentacion"><img src="assets/img/perfil/FotoPersonal.jpeg" width={photoWidth} className="rounded-circle text-center" alt="Foto personal"/></a>
             <button
             className="navbar-toggler"
@@ -28,13 +28,13 @@ const NavBar = () => {
                         <a href="#Habilidades" className="text-bold text-uppercase text-decoration-none">Skills</a>
                     </li>
                     <li className="mt-3">
-                        <a href="#4" className="text-bold text-uppercase text-decoration-none">Portfolio</a>
+                        <a href="#Portfolio" className="text-bold text-uppercase text-decoration-none">Portfolio</a>
                     </li>
                     <li className="mt-3">
-                        <a href="#5" className="text-bold text-uppercase text-decoration-none">Estudios</a>
+                        <a href="#Estudios" className="text-bold text-uppercase text-decoration-none">Estudios</a>
                     </li>
                     <li className="mt-3">
-                        <a href="#6" className="text-bold text-uppercase text-decoration-none">Contacto</a>
+                        <a href="#Contacto" className="text-bold text-uppercase text-decoration-none">Contacto</a>
                     </li>
                 </ul>
             </div>
