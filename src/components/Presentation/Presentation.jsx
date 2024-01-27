@@ -4,7 +4,7 @@ const Presentation = () =>{
 
     return(
         <div className="presentacion d-grid align-items-center" id="Presentacion">
-            <div className="d-flex flex-wrap justify-content-around p-5">
+            <div className="d-flex flex-wrap justify-content-around p-5 mt-5">
                 <img src="assets/img/perfil/FotoPersonal.jpeg" width={photoWidth} className="rounded-circle text-center" alt="Foto personal"/>
                 <div className="d-grid m-2">
                     <h4 className="text-light font-game">¡hola mundo!</h4>
