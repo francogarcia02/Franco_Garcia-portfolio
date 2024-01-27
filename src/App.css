@@ -14,16 +14,16 @@ hr{
   .navbar{
     position: fixed;
     background: #2C2E3A;
-    height: 100vh;
-    padding: 3rem;
-    padding-top: 8rem;
+    width: 100vw;
   }
   .space{
-    margin-top: 15rem;
-    margin-bottom: 25rem;
+    margin-top: 8rem;
+    margin-bottom: 20rem;
   }
   .justifier{
-    margin-left: 20rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    width: 100vw;
   }
 }
 
@@ -33,10 +33,12 @@ hr{
   }
   .space{
     margin-top: 5rem;
-    margin-bottom: 17rem;
+    margin-bottom: 10rem;
   }
   .navbar{
     background: #2C2E3A;
+    position: fixed;
+    width: 100vw;
   }
 }
 
@@ -88,4 +90,28 @@ hr{
   grid-template-rows: repeat(2, auto);
   justify-content: start;
   gap: 5%;
+}
+
+.grid-default{
+  display: grid;
+  justify-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+@font-face {
+  font-family: 'Silkscreen-r';
+  src: url('../public/assets/fonts/Silkscreen-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Silkscreen-b';
+  src: url('../public/assets/fonts/Silkscreen-Bold.ttf') format('truetype');
+}
+
+.font-game{
+  font-family: 'Silkscreen-r', sans-serif;
+}
+
+.font-game_bold{
+  font-family: 'Silkscreen-b', sans-serif;
 }

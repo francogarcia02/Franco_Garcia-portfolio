@@ -3,11 +3,10 @@ import {ToggleOff} from 'react-bootstrap-icons'
 
 const NavBar = () => {
 
-    const photoWidth = '140rem';
+
 
     return(
         <nav className="navbar navbar-expand-md navbar-light d-flex flex-md-column">
-            <a href="#Presentacion"><img src="assets/img/perfil/FotoPersonal.jpeg" width={photoWidth} className="rounded-circle text-center" alt="Foto personal"/></a>
             <button
             className="navbar-toggler"
             type="button"
@@ -19,22 +18,22 @@ const NavBar = () => {
                 >
                 <ToggleOff className="text-light border-light"/>
             </button>
-            <div className="collapse navbar-collapse w-100 align-items-start mt-3" id="navbarSuportedContent">
-                <ul className="navbar-nav d-flex w-100 flex-md-column text-center text-md-center">
-                    <li className="mt-3">
-                        <a href="#Sobre-mi" className="text-bold text-uppercase text-decoration-none" aria-current="page">Sobre mi</a>
+            <div className="collapse navbar-collapse w-100 align-items-start" id="navbarSuportedContent">
+                <ul className="font-game_bold navbar-nav d-flex w-100 justify-content-center align-items-center flex-md-row text-center text-md-center">
+                    <li className="p-2">
+                        <a href="#Sobre-mi" className=" text-uppercase text-decoration-none" aria-current="page">Sobre mi</a>
                     </li>
-                    <li className="mt-3">
-                        <a href="#Habilidades" className="text-bold text-uppercase text-decoration-none">Skills</a>
+                    <li className="p-2">
+                        <a href="#Habilidades" className=" text-uppercase text-decoration-none">Skills</a>
                     </li>
-                    <li className="mt-3">
-                        <a href="#Portfolio" className="text-bold text-uppercase text-decoration-none">Portfolio</a>
+                    <li className="p-2">
+                        <a href="#Portfolio" className=" text-uppercase text-decoration-none">Portfolio</a>
                     </li>
-                    <li className="mt-3">
-                        <a href="#Estudios" className="text-bold text-uppercase text-decoration-none">Estudios</a>
+                    <li className="p-2">
+                        <a href="#Estudios" className=" text-uppercase text-decoration-none">Estudios</a>
                     </li>
-                    <li className="mt-3">
-                        <a href="#Contacto" className="text-bold text-uppercase text-decoration-none">Contacto</a>
+                    <li className="p-2">
+                        <a href="#Contacto" className=" text-uppercase text-decoration-none">Contacto</a>
                     </li>
                 </ul>
             </div>

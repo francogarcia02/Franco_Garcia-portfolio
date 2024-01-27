@@ -12,9 +12,9 @@ import Contacto from './components/Contacto/Contacto';
 function App(){
     return (
         <div className="background">
-            <div className="container d-flex flex-column flex-md-row p-0 m-0">
+            <div className="d-flex flex-column flex-md-row">
                 <NavBar/>
-                <main className="justifier p-2 flex-grow-1">
+                <main className="container">
                     <Presentation/>
                     <AboutMe/>
                     <Skills/>
