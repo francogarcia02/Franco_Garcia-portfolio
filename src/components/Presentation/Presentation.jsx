@@ -17,7 +17,7 @@ const Presentation = () =>{
                     <p className="text-light text-start m-0 me-1 font-game">MAIL: </p>
                     <a className="text-green text-decoration-none m-0" href="mailto:francoalbertogarcia2017@gmail.com">francoalbertogarcia2017@gmail.com</a>
                 </div>
-                <a className="text-decoration-none mt-2 bg-green text-dark p-2 text-uppercase text-bold text-center rounded" href="https://drive.google.com/drive/u/1/folders/19YuLIEKGSlOxTGAaDmh0Vee4fjxtmUzJ">Mi curriculum vitae</a>
+                <a className="text-decoration-none mt-2 bg-green text-dark p-2 text-uppercase text-bold text-center rounded" href="assets/CV/FrancoGarcia-Curriculum(ingles).pdf">Mi curriculum vitae</a>
             </div>
         </div>
     )
