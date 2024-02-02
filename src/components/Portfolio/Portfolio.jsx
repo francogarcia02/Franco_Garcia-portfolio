@@ -4,7 +4,8 @@ import React from '../Skills-items/React';
 import Jsx from '../Skills-items/Jsx';
 import Css from '../Skills-items/Css';
 import Bootstrap from '../Skills-items/Bootstrap';
-
+import { Suspense } from 'react';
+import LazyImg from './LazyImg';
 
 const Portfolio = () =>{
     return(
@@ -13,7 +14,9 @@ const Portfolio = () =>{
             <div className=" d-flex flex-wrap justify-content-center align-items-start mx-auto">
                 <div className="card-bg d-grid ms-2 me-2 mb-5 max-width shadow rounded position-relative">
                     <Responsive/>
-                    <img className="img-width rounded" src="assets/img/portfolio/TASKING-PAGE.png" alt=""/>
+                    <Suspense fallback={<div>Loading...</div>}>
+                        <LazyImg classes={'img-width rounded'} url={"assets/img/portfolio/TASKING-PAGE.png"}/>
+                    </Suspense>
                     <h3 className="h5 font-game text-dark text-uppercase">tasking page</h3>
                     <p className="text-dark">Pagina de tareas con Material UI</p>
                     <div className="d-flex flex-wrap mb-2">
@@ -34,7 +37,9 @@ const Portfolio = () =>{
                 </div>
                 <div className="card-bg d-grid ms-2 me-2 mb-5 max-width shadow rounded position-relative">
                     <Responsive/>
-                    <img className="img-width rounded" src="assets/img/portfolio/WEATHER-PAGE.png" alt=""/>
+                    <Suspense fallback={<div>Loading...</div>}>
+                        <LazyImg classes={'img-width rounded'} url={"assets/img/portfolio/WEATHER-PAGE.png"}/>
+                    </Suspense>
                     <h3 className="h5 font-game text-dark text-uppercase">weather page</h3>
                     <p className="text-dark">Pagina del clima integrada con API</p>
                     <div className="d-flex flex-wrap mb-2">
@@ -50,7 +55,9 @@ const Portfolio = () =>{
                     </div>
                 </div>
                 <div className="card-bg d-grid ms-2 me-2 mb-5 max-width shadow rounded">
-                    <img className="img-width rounded" src="assets/img/portfolio/MP-ECOMMERCE.png" alt=""/>
+                    <Suspense fallback={<div>Loading...</div>}>
+                        <LazyImg classes={'img-width rounded'} url={"assets/img/portfolio/MP-ECOMMERCE.png"}/>
+                    </Suspense>
                     <h3 className="font-game text-dark h5 text-primary text-uppercase">ecommerce con mercado pago</h3>
                     <p className="text-dark">aplicacion web desarrollada para una empresa de venta de electronicos con pasarela de pago</p>
                     <div className="d-flex flex-wrap mb-2">
@@ -66,7 +73,9 @@ const Portfolio = () =>{
                     </div>
                 </div>
                 <div className="card-bg d-grid ms-2 me-2 mb-5 max-width shadow rounded ">
-                    <img className="img-width rounded" src="assets/img/portfolio/AVENTURAS-VIAJERAS.png" alt=""/>
+                    <Suspense fallback={<div>Loading...</div>}>
+                        <LazyImg classes={'img-width rounded'} url={"assets/img/portfolio/AVENTURAS-VIAJERAS.png"}/>
+                    </Suspense>
                     <h3 className="h5 font-game text-dark text-uppercase">web de turismo</h3>
                     <p className="text-dark">aplicacion web desarrollada para una empresa de turismo ubicada en el sur del pais</p>
                     <div className="d-flex flex-wrap mb-2">
