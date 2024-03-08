@@ -16,9 +16,9 @@ function App(){
                 <NavBar/>
                 <main className="container">
                     <Presentation/>
+                    <Portfolio/>
                     <AboutMe/>
                     <Skills/>
-                    <Portfolio/>
                     <Estudios/>
                     <Contacto/>
                 </main>
