@@ -1,6 +1,8 @@
 import {Github} from 'react-bootstrap-icons';
 import Responsive from './Responsive';
 import React from '../Skills-items/React';
+import Typescript from '../Skills-items/Typescript';
+import TailWind from '../Skills-items/TailWind';
 import Jsx from '../Skills-items/Jsx';
 import Css from '../Skills-items/Css';
 import Bootstrap from '../Skills-items/Bootstrap';
@@ -12,6 +14,25 @@ const Portfolio = () =>{
         <div id="Portfolio" className="space grid-default ">
             <h1 className="display-3 text-primary mb-5 mt-5 font-game">PORTFOLIO</h1>
             <div className=" d-flex flex-wrap justify-content-center align-items-start mx-auto">
+                <div className="card-bg d-grid ms-2 me-2 mb-5 max-width shadow rounded position-relative">
+                    <Responsive/>
+                    <Suspense fallback={<div>Loading...</div>}>
+                        <LazyImg classes={'img-width rounded'} url={"assets/img/portfolio/BIMAX-REARMADO.png"}/>
+                    </Suspense>
+                    <h3 className="h5 font-game text-dark text-uppercase">bimax page</h3>
+                    <p className="text-dark">Sitio web desarrollado en equipo simulando portal de BIMAX, con sistema de usuarios integrando base de datos</p>
+                    <div className="d-flex flex-wrap mb-2">
+                        <React/>
+                        <Typescript/>
+                        <Css/>
+                        <TailWind/>
+                    </div>
+                    <div className="d-flex justify-content-center">
+                        <a className="d-flex justify-content-center" href="https://github.com/Qarola/inmobiliaria-bonpland-id-for-ideas">
+                            <Github className="git-icon m-2"/>
+                        </a>
+                    </div>
+                </div>
                 <div className="card-bg d-grid ms-2 me-2 mb-5 max-width shadow rounded">
                     <Suspense fallback={<div>Loading...</div>}>
                         <LazyImg classes={'img-width rounded'} url={"assets/img/portfolio/MP-ECOMMERCE.png"}/>
@@ -44,33 +65,6 @@ const Portfolio = () =>{
                     </div>
                     <div className="d-flex justify-content-center">
                         <a className="d-flex justify-content-center" href="https://github.com/francogarcia02/React-AventurasViajeras">
-                            <Github className="git-icon m-2"/>
-                        </a>
-                    </div>
-                </div>
-                <div className="card-bg d-grid ms-2 me-2 mb-5 max-width shadow rounded position-relative">
-                    <Responsive/>
-                    <Suspense fallback={<div>Loading...</div>}>
-                        <LazyImg classes={'img-width rounded'} url={"assets/img/portfolio/REDUX-ECOMMERCE.png"}/>
-                    </Suspense>
-                    <h3 className="h5 font-game text-dark text-uppercase">ecommerce con redux</h3>
-                    <p className="text-dark pe-1 ps-1">Pagina de venta de productos hecha con redux</p>
-                    <div className="d-flex flex-wrap mb-2">
-                        <React/>
-                        <Bootstrap/>
-                        <Jsx/>
-                        <div className="bg-light m-2 p-1 d-flex align-items-center justify-content-center">
-                            <img className="icon-width me-1" src="assets/img/logos/REDUX.png" alt="html"/>
-                            <p className="text-dark m-0 me-1 text-bold text-uppercase">redux</p>
-                        </div>
-                        <div className="bg-light m-2 p-1 d-flex align-items-center justify-content-center">
-                            <img className="icon-width me-1" src="assets/img/logos/TAILWIND.png" alt="html"/>
-                            <p className="text-dark m-0 me-1 text-bold text-uppercase">tailwind</p>
-                        </div>
-                        <Css/>
-                    </div>
-                    <div className="d-flex justify-content-center">
-                        <a className="d-flex justify-content-center" href="https://github.com/francogarcia02/React-OpenWeatherMap">
                             <Github className="git-icon m-2"/>
                         </a>
                     </div>

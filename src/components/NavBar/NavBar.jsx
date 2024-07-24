@@ -21,13 +21,13 @@ const NavBar = () => {
             <div className="collapse navbar-collapse w-100 align-items-start" id="navbarSuportedContent">
                 <ul className="font-game_bold navbar-nav d-flex w-100 justify-content-center align-items-center flex-md-row text-center text-md-center">
                     <li className="p-2">
+                        <a href="#Portfolio" className=" text-uppercase text-decoration-none">Portfolio</a>
+                    </li>
+                    <li className="p-2">
                         <a href="#Sobre-mi" className=" text-uppercase text-decoration-none" aria-current="page">Sobre mi</a>
                     </li>
                     <li className="p-2">
                         <a href="#Habilidades" className=" text-uppercase text-decoration-none">Skills</a>
-                    </li>
-                    <li className="p-2">
-                        <a href="#Portfolio" className=" text-uppercase text-decoration-none">Portfolio</a>
                     </li>
                     <li className="p-2">
                         <a href="#Estudios" className=" text-uppercase text-decoration-none">Estudios</a>

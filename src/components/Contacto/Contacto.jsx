@@ -13,7 +13,7 @@ const Contacto = () => {
                 <div className="d-flex flex-wrap align-items-center mb-2">
                     <Linkedin className="text-light me-1"/>
                     <p className="text-light m-0 me-1">Linkedin</p>
-                    <a className="text-green" href="www.linkedin.com/in/fran-garcia-64374623a">linkedin/fran-garcia</a>
+                    <a className="text-green" href="https://www.linkedin.com/in/francogarcia02fcg" target="_blank" rel="noopener noreferrer">linkedin/fran-garcia</a>
                 </div>
                 <div className="d-flex flex-wrap align-items-center mb-2">
                     <Envelope className="text-light me-1"/>
