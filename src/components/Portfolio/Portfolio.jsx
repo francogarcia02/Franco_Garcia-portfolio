@@ -3,6 +3,7 @@ import Responsive from './Responsive';
 import React from '../Skills-items/React';
 import Typescript from '../Skills-items/Typescript';
 import TailWind from '../Skills-items/TailWind';
+import MaterialUI from '../Skills-items/MaterialUI';
 import Jsx from '../Skills-items/Jsx';
 import Css from '../Skills-items/Css';
 import Bootstrap from '../Skills-items/Bootstrap';
@@ -23,9 +24,9 @@ const Portfolio = () =>{
                     <p className="text-dark">Sitio web desarrollado en equipo simulando portal de BIMAX, con sistema de usuarios integrando base de datos</p>
                     <div className="d-flex flex-wrap mb-2">
                         <React/>
-                        <Typescript/>
-                        <Css/>
                         <TailWind/>
+                        <MaterialUI/>
+                        <Typescript/>
                     </div>
                     <div className="d-flex justify-content-center">
                         <a className="d-flex justify-content-center" href="https://github.com/Qarola/inmobiliaria-bonpland-id-for-ideas">
@@ -80,10 +81,7 @@ const Portfolio = () =>{
                         <React/>
                         <Bootstrap/>
                         <Jsx/>
-                        <div className="bg-light m-2 p-1 d-flex align-items-center justify-content-center">
-                            <img className="icon-width me-1" src="assets/img/logos/MATERIAL.png" alt="html"/>
-                            <p className="text-dark m-0 me-1 text-bold text-uppercase">material ui</p>
-                        </div>
+                        <MaterialUI/>
                         <Css/>
                     </div>
                     <div className="d-flex justify-content-center">
